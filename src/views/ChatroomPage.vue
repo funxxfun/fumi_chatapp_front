@@ -15,9 +15,9 @@ import axios from "../api/index";
 import ActionCable from "actioncable";
 import { formatDistanceToNow } from "date-fns";
 import { ja } from "date-fns/locale";
-import NavbarPage from '../components/NavbarPage.vue';
-import ChatWindow from '../components/ChatWindow.vue';
-import NewChatForm from '../components/NewChatForm.vue';
+import NavbarPage from "../components/NavbarPage.vue";
+import ChatWindow from "../components/ChatWindow.vue";
+import NewChatForm from "../components/NewChatForm.vue";
 
 export default {
   components: { ChatWindow, NewChatForm, NavbarPage },
@@ -81,7 +81,7 @@ export default {
       });
     } else {
       const cable = ActionCable.createConsumer(
-        "wss://test-chatapp-api.herokuapp.com/cable"
+        "wss://fumi-chatapp-front.herokuapp.com/cable"
       );
       this.messageChannel = cable.subscriptions.create("RoomChannel", {
         connected: () => {
@@ -103,5 +103,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
