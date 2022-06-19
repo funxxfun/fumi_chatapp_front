@@ -81,7 +81,7 @@ export default {
       });
     } else {
       const cable = ActionCable.createConsumer(
-        "wss://fumi-chatapp-front.herokuapp.com/cable"
+        "wss://fumi-chatapp-api.herokuapp.com/cable"
       );
       this.messageChannel = cable.subscriptions.create("RoomChannel", {
         connected: () => {
