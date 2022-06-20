@@ -6,7 +6,7 @@ build:
     web: Dockerfile
   config:
     WORKDIR: app
-    API_URL: "https://test-chatapp-api.herokuapp.com" # ここはapiのデプロイ先URLが決まったら書き変える
+    API_URL: "https://fumi-chatapp-api.herokuapp.com" # ここはapiのデプロイ先URLが決まったら書き変える
 run:
   web: npm run build && npm run start
   
