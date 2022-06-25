@@ -35,6 +35,7 @@ export default {
     margin-bottom: 6px;
     padding: 10px;
     box-sizing: border-box;
+    background: #F9D923;
     border: 0;
     border-radius: 20px;
     font-family: inherit;

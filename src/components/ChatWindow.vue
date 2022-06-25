@@ -125,7 +125,7 @@ ul li {
   float: right;
 }
 .sent .message {
-  background: #677bb4;
+  background: #187498;
   color: white;
   padding: 10px;
   display: inline-block;
@@ -173,7 +173,7 @@ ul li {
   font-size: 9px;
 }
 .heart {
-  color: rgb(236, 29, 29);
+  color: #cf0000;
 }
 .heart-count {
   color: rgb(20, 19, 19);
@@ -183,6 +183,6 @@ ul li {
 }
 
 .sent .message::selection {
-  background: #677bb4;
+  background: #187498;
 }
 </style>
