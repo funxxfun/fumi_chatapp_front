@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+  <head prefix="og: https://ogp.me/ns#">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- OGP 一般設定 -->
+    <meta property="og:title" content="Cha-cha-chat" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fumi-chatapp-front.herokuapp.com/" />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/86139603/175806892-4cf4f495-a36a-4c3c-94c3-31cdb98c72da.jpe" />
+    <meta property="og:description" content="チャットアプリです" />
+    <!-- OGP Twitter向け設定 -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@boofumifumi" />
+    <meta name="twitter:creator" content="@boofumifumi" />
+
+
   </head>
   <body>
     <noscript>
