@@ -1,5 +1,5 @@
 body {
-  background: #EB5353;
+  background: #3DB2FF;
   color: #444;
 }
 .container {
@@ -16,7 +16,7 @@ body {
 }
 button {
   text-decoration: none;
-  background: #36AE7C;
+  background: #FF2442;
   color: white;
   font-weight: bold;
   border: 0;

@@ -125,7 +125,7 @@ ul li {
   float: right;
 }
 .sent .message {
-  background: #187498;
+  background: #FFB830;
   color: white;
   padding: 10px;
   display: inline-block;
@@ -183,6 +183,6 @@ ul li {
 }
 
 .sent .message::selection {
-  background: #187498;
+  background: #FFB830;
 }
 </style>
